@@ -14,10 +14,10 @@ Group project for BITP3453 Mobile Application Development
 
 3)	Install Cordova
 -	After successful Node installation, run:  npm install –g cordova
--	Create a Simple Time Table Cordova project folder by running: 
--	cordova create simpleTimeTable
--	cd simpleTimeTable
--	cordova platform add android
 
 4)	Install Ionic Framework
 -	npm install -g cordova ionic
+
+- ionic start simpleTimeTable
+- cordova platform add android
+- cordova plugin add cordova-sqlite-storage
